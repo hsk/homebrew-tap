@@ -5,6 +5,10 @@ class Ats011 < Formula
   url "https://downloads.sourceforge.net/project/ats2-lang/ats2-lang/ats2-postiats-0.1.1/ATS2-Postiats-0.1.1.tgz"
   sha1 "555c820db67d14a30ac88ce1e70b4a6476adf8b5"
 
+  bottle do
+    cellar :any
+    sha1 "935c835f5be79be37025de28460c2d8f5788bedc" => :mavericks
+  end
 
   depends_on "gmp"
 
