@@ -9,7 +9,7 @@ class Caper < Formula
 
   bottle do
     cellar :any
-    root_url "https://raw.githubusercontent.com/hsk/homebrew-tap/master"
+    root_url "https://raw.githubusercontent.com/hsk/homebrew-tap/master/bottles"
     sha1 "6b9d72bd574832ab3c9eeca331c573dcb55ea8b9" => :mavericks
   end
 
