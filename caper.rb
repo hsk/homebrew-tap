@@ -7,6 +7,12 @@ class Caper < Formula
   sha1 ""
   version 'latest'
 
+  bottle do
+    cellar :any
+    root_url "https://raw.githubusercontent.com/hsk/homebrew-tap/master"
+    sha1 "6b9d72bd574832ab3c9eeca331c573dcb55ea8b9" => :mavericks
+  end
+
   def install
     system "make all"
     bin.install Dir["caper/caper", "capella/capella"]
