@@ -6,7 +6,7 @@ class Ats011 < Formula
   sha1 "555c820db67d14a30ac88ce1e70b4a6476adf8b5"
 
   bottle do
-    root_url "https://github.com/hsk/homebrew-tap/raw/master/"
+    root_url "https://github.com/hsk/homebrew-tap/blob/raw/master/"
     cellar :any
     sha1 "935c835f5be79be37025de28460c2d8f5788bedc" => :mavericks
   end
