@@ -10,7 +10,7 @@ class Ats011 < Formula
     root_url "https://raw.githubusercontent.com/hsk/homebrew-tap/master"
 
     cellar :any
-    sha1 "935c835f5be79be37025de28460c2d8f5788bedc" => :mavericks
+    sha1 "ee20eb8fb960448c753475fd0576d1a4058c240c" => :mavericks
   end
 
   depends_on "gmp"
