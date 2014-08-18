@@ -3,7 +3,7 @@ require "formula"
 class Ats010 < Formula
   homepage "http://www.ats-lang.org/"
   url "https://downloads.sourceforge.net/project/ats2-lang/ats2-lang/ats2-postiats-0.1.0/ATS2-Postiats-0.1.0.tgz"
-  sha1 ""
+  sha1 "7767db094f7f050edf30518866892b6cd0e2277e"
 
   bottle do
     root_url "https://raw.githubusercontent.com/hsk/homebrew-tap/master/bottles"
@@ -25,8 +25,8 @@ class Ats010 < Formula
     # https://github.com/githwxi/ATS-Postiats/issues/76
     #system "make", "CCOMP=clang", "all"
     # system "make", "CCOMP=clang", "GCFLAG=-D_ATS_NGC", "all"
-    system "make", "GCFLAG=-D_ATS_NGC", "all"
-    #system "make", "all"
+    #system "make", "GCFLAG=-D_ATS_NGC", "all"
+    system "make", "all"
     system "make", "install"
   end
 
