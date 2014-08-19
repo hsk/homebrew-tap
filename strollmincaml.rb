@@ -11,13 +11,8 @@ class Strollmincaml < Formula
 
   bottle do
     cellar :any
-    sha1 "96c6dbf24b68977e02807b68e5c42575958e857c" => :mavericks
-  end
-
-  bottle do
-    cellar :any
     root_url "https://raw.githubusercontent.com/hsk/homebrew-tap/master/bottles"
-    sha1 "" => :mavericks
+    sha1 "96c6dbf24b68977e02807b68e5c42575958e857c" => :mavericks
   end
 
   def install
